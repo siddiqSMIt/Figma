@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #706767;
+      color: #333;
+    }
+
+    .navbar {
+      width: 100%;
+      background-color: #333;
+      padding: 20px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar ul li {
+      font-size: 16px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #ff5c5c;
+    }  
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding-top: 10px;
+      }
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center; 
+      margin-top: 20px; 
+    }
+
+    .button {
+      padding: 10px 20px;
+      margin: 0 10px; 
+      border: none; 
+      border-radius: 5px; 
+      color: white; 
+      background-color: #007bff; 
+      cursor: pointer; 
+      transition: background-color 0.3s; 
+    }
+
+    .button:hover {
+      background-color: #0056b3; 
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">FIGMA </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1 style="color: white; text-align: center; margin-top: 220px; font-size: 50px; font-weight: 400;">
+    Clean & Professional header <br> to your Landing Page
+  </h1>
+  <p style="color: white; text-align: center; margin-top: 20px;">
+    If you want to delve a smooth customer experience and look good while doing it, a web design can help you achieve that.
+  </p>
+
+  <div class="button-container">
+    <button class="button">Watch Work</button>
+    <button class="button">Learn More</button>
+  </div>
+ <a href="indez2.html"> <i class="fa-solid fa-arrow-right" style="margin-top: 30PX; margin-left: 30PX;"></i>
+ </a>
+</body>
+</html>
